@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    width: auto;
+    height: 200px; 
+    margin: 10px;
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    max-width: fit-content;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+button{
+    font-size: xx-large;
+    background-color: #ebeef3;
+    padding: 20px;
+    font-style: unset;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+h2{
+    padding-left: 10px;
+}
