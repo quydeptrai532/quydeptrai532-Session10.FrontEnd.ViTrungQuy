@@ -1,0 +1,100 @@
+* {  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+    font-family: Arial, Helvetica, sans-serif;  
+} 
+a{
+   text-decoration: none;
+   color: black;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid wheat;
+    padding-bottom: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    display:flex;
+    gap: 10px;
+    padding: 20px;
+    max-width: 2000px;
+    max-height: 1000px;
+}
+.half-left,.half-right{
+    flex: 0.5;
+    aspect-ratio: 2/1;
+
+    position: relative;
+}
+button{
+    color: rgb(0, 179, 255);
+    background-color: white;
+    border: none;
+}
+img{
+   width: 100%;
+   height: 80%;
+}
+h2{
+  position: absolute;
+  color: black;
+  background-color: white;
+  left: 10px;
+  bottom: 40px;
+  width: 80%;
+  font-size: xx-large;
+}
+.half-left p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.half-right{
+    display: flex;
+}
+.small-left,.small-right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    aspect-ratio: 1/2;
+    gap: 10px;
+}
+.small-left div{
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+.small-left div:nth-last-of-type(1){
+    border-bottom: none;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    height: 80%;
+    gap: 20px;
+}
+.para a{
+    color: blue;
+    align-self: flex-end;
+}
+h4{
+    padding: 5px;
+    background-color: yellow;
+    width: fit-content;
+}
+input{
+    border: none;
+}
+.blue{
+    color: blue;
+    font-size: larger;
+}
+.small-right button{
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+}
